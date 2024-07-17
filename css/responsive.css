@@ -1,0 +1,144 @@
+.hide {
+    display: none;
+}
+
+/* Responsive */
+
+
+/* Mobil Device */
+@media screen and (max-width: 576px) {
+    
+    .header {
+        width: 100%;
+    }
+
+    /* Navbar */
+    .navbar {
+        width: 95%;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-title {
+        font-size: 22px;
+        color: rgb(56, 55, 55);
+    }
+
+    .bars,
+    .shopping-cart {
+        display: contents;
+        font-size: 22px;
+    }
+
+    .bars a,
+    .shopping-cart a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    /* Banner */
+    .banner-container {
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 95%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .banner-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-description { 
+        font-size: 16px;
+    }
+
+    .banner-btn {
+        margin-bottom: 20px;
+    }
+
+    .banner-img img {
+        width: 95%;
+    }
+
+    /* Sponsors */
+    .sponsors {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .sponsors hr {
+        width: 10%;
+        display: none !important;
+    }
+
+    .sponsors-logos {
+        width: 80%;
+        margin: 15px auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .sponsors-logos img {
+        width: 70px;
+    }
+
+    /* popular */
+    .popular {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .popular-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* Featured */
+    .featured {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .featured-container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .featured-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .featured-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .featured-img img {
+        width: 100%;
+    }
+}
