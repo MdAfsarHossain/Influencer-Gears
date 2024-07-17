@@ -1,0 +1,67 @@
+/* Mulish Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+
+/* Header */
+.header {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-logo {
+    cursor: pointer;
+}
+
+.nav-title {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.nav-links ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.bars a,
+.shopping-cart a {
+    transition: all 0.3s;
+}
+
+.nav-links ul li a:hover,
+.bars a:hover,
+.shopping-cart a:hover {
+    color:tomato;
+}
+
+
