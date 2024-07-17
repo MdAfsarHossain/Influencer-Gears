@@ -65,3 +65,60 @@ body {
 }
 
 
+/* Banner Styles */
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 88vh;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    gap: 15px;
+}
+
+.banner-title {
+    font-size: 42px;
+}
+
+.banner-description {
+    font-size: 18px;
+    width: 80%;
+    color: gray;
+}
+
+.banner-btn {
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(224, 44, 109);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.banner-btn:hover {
+    border: 2px solid rgb(224, 44, 109);
+    background-color: transparent;
+    color: black;
+}
+
+.banner-img {
+    padding: 25px;
+}
+
+.banner-img img {
+    background-image: url('../images/circle_design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
