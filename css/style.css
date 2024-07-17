@@ -122,3 +122,29 @@ body {
 }
 
 
+/* Sponsors Styles */
+.sponsors {
+    width: 1070px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.sponsors hr {
+    color: gray;
+    height: 2px;
+    width: 100%;
+}
+
+.sponsors-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
